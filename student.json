@@ -1,0 +1,34 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "Alice",
+            "age": 20,
+            "marks": {
+                "math": 88,
+                "science": 92,
+                "english": 79
+            }
+        },
+        {
+            "id": 2,
+            "name": "Bob",
+            "age": 21,
+            "marks": {
+                "math": 75,
+                "science": 85,
+                "english": 90
+            }
+        },
+        {
+            "id": 3,
+            "name": "Charlie",
+            "age": 19,
+            "marks": {
+                "math": 95,
+                "science": 89,
+                "english": 93
+            }
+        }
+    ]
+}
