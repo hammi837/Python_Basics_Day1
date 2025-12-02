@@ -42,7 +42,7 @@ print(s2.collage_name)
 #         but hum hama nhii pata engine ma kia ho raha hn koe ka usa hide kia gia hn (unnessary for user)
 
 
-# see inheritance dont show acc,clutch,brk jut show car started
+# see abstarction dont show acc,clutch,brk jut show car started
 class car:
     def __init__(self):
         self.acc=False
