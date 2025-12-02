@@ -1,0 +1,27 @@
+[
+    {
+        "contacts": [
+            {
+                "id": 1,
+                "name": "Hammad Hafeez",
+                "phone": "+92-300-1234567",
+                "email": "hammad@example.com",
+                "address": "Lahore, Pakistan"
+            },
+            {
+                "id": 2,
+                "name": "sd",
+                "phone": "1234",
+                "email": "as@gmail.com",
+                "address": "ryk"
+            },
+            {
+                "id": 3,
+                "name": "Ali Raza",
+                "phone": "+92-333-7865432",
+                "email": "ali@example.com",
+                "address": "Karachi, Pakistan"
+            }
+        ]
+    }
+]
