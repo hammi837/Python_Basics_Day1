@@ -2,8 +2,11 @@
 # week01
 # Python_basic_ day1
 Completed two introductory Python scripts:
+<br>
     A unit converter (e.g., meters ↔ kilometers)
+    <br>
     A basic calculator performing fundamental arithmetic operations
+    <br>
 Created a new GitHub repository and pushed the first script to initialize the project.
 # Python_Data Structures & Functions_day2
 Practice lists, sets, tuples, dictionaries
@@ -26,5 +29,6 @@ Final Project: Contact Book CLI with CRUD and JSON storage (work on)
 # Final Week Project & 10 tests including edge cases _day5
 Final Project: Contact Book CLI with CRUD and JSON storage (completed)
 Write at least 10 tests including edge cases
+
 
 
