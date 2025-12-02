@@ -50,5 +50,3 @@ Write at least 10 tests including edge cases (test_cases.py)
 <br>
 Prepare README with setup instructions and usage examples
 
-
-
