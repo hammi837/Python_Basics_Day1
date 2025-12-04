@@ -60,4 +60,16 @@ Create simple homepage, template rendering
 <br>
 Push initial Django project to GitHub
 
+# Models, ORM & Migrations---day02
+Saving Contact_Form data to database
+<br>
+Perform CRUD operations using ORM
+<br>
+understand and using Django admin panel to manage data
+<br>
+Create models with relationships
+
+
+
+
 
