@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, get_object_or_404
 from contacts.models import Contact
-
+from django.contrib import messages
 def contacts(request):
     # CREATE
     if request.method == "POST" and 'create' in request.POST:
@@ -10,6 +10,7 @@ def contacts(request):
             subject=request.POST['subject'],
             message=request.POST['message']
         )
+        messages.success(request,"contact added successfully")
         return redirect('contacts')
 
     # UPDATE
@@ -29,4 +30,5 @@ def contacts(request):
     # READ
     contacts = Contact.objects.all()
     return render(request, 'contacts.html', {'contacts': contacts})
+    print(contacts)
 
