@@ -56,20 +56,27 @@ Install Django and start a new project
 <br>
 Understand project structure, apps, URLs, views
 <br>
-Create simple homepage, template rendering
+Create simple homepage, template rendering (week2/djangoproject)
 <br>
 Push initial Django project to GitHub
 
 # Models, ORM & Migrations---day02
 Saving Contact_Form data to database
 <br>
-Perform CRUD operations using ORM
+Perform CRUD operations using ORM  (week2/crudproject)
 <br>
 understand and using Django admin panel to manage data
 <br>
-Create models with relationships
+Create models with relationships (week2/models.py)
 
-
-
-
+# Templates, Forms & Validations --------day03
+Practice filtering, sorting, pagination (week/djangoproject/templates/services.html & views.py)
+<br>
+Create reusable templates and layouts  (week/djangoproject/templates/base.html,navbar.html)
+<br>
+Implement Django forms and CSRF protection (week/djangoproject/templates/contact.html & views.py)
+<br>
+Add create/update/delete UI for objects (week2/crudproject)
+<br>
+Display validation errors and success messages (week2/crudproject)
 
