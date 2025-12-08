@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-9q)cj2zk(6xvjchcih%p%ap8y4lh54i$l%h4+!-wu+)fkyi#zx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+AUTH_USER_MODEL='register.customuser'
 
 
 # Application definition
@@ -39,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'contacts',
+    'register',
+
 ]
 
 MIDDLEWARE = [
