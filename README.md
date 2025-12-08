@@ -80,3 +80,13 @@ Add create/update/delete UI for objects (week2/crudproject)
 <br>
 Display validation errors and success messages (week2/crudproject)
 
+# Authentication & User Management --------day04
+Implement registration, login, logout
+<br>
+Restrict views using login_required
+<br>
+Customize User model and profiles
+<br>
+Add role-based permissions
+
+
