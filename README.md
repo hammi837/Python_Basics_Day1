@@ -89,4 +89,22 @@ Customize User model and profiles
 <br>
 Add role-based permissions
 
+# Django Week Project --------day05
+Developed a full-featured Task Management Web Application using Django.
+<br>
+Implemented user authentication (login/logout).
+<br>
+Built CRUD functionality for tasks, including:
+<br>
+Adding, editing, deleting, and viewing tasks.
+<br>
+Assigning categories and due dates to tasks.
+<br>
+Integrated Django Admin for easy backend management of users, tasks, and categories.
+<br>
+Created 6 API endpoints using Django REST Framework for task management (CRUD, filtering by categories, etc.).
+<br>
+Deployed the application locally and tested all features.
+
+
 
