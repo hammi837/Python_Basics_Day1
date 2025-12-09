@@ -20,8 +20,8 @@ class CustomUser(AbstractUser):
     email = models.EmailField(unique=True)
     gender = models.CharField(max_length=10, blank=True, null=True)
     gender2 = models.CharField(max_length=10, blank=True, null=True)
-    
 
+    
     USERNAME_FIELD = "email"
     REQUIRED_FIELDS = []
 
