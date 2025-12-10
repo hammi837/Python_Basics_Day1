@@ -106,7 +106,7 @@ Created 6 API endpoints using Django REST Framework for task management (CRUD, f
 <br>
 Deployed the application locally and tested all features.
 
-# week02
+# week03
 # FastAPI Basics & Routing --------day01
 Created a CRUD-based FastAPI project and successfully ran the local development server.
 <br>
