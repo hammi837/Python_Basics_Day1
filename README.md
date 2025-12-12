@@ -126,3 +126,12 @@ Write CRUD services for core entities
 Practice dependency injection patterns
 <br>
 Explored JWT authentication for secure API access
+
+# Authentication, Security & Middleware ..............Day3
+Implemented JWT authentication and protected routes using authentication dependencies.
+<br>
+Enabled CORS and wrote custom middleware.
+<br>
+Discussed API security basics and rate limiting.
+<br>
+Wrote API unit tests using pytest and worked on API clients and pagination.
