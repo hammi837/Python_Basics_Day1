@@ -107,4 +107,3 @@ async def delete_note(note_id: int, db: Session = Depends(get_db)):
 def get_notes(db: Session = Depends(get_db)):
     return db.query(models.Note).all()
 
-
