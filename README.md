@@ -135,3 +135,32 @@ Enabled CORS and wrote custom middleware.
 Discussed API security basics and rate limiting.
 <br>
 Wrote API unit tests using pytest and worked on API clients and pagination.
+
+# Testing, Clients & Pagination........DAY4
+Write API unit tests using pytest
+<br>
+ Use TestClient to simulate requests
+<br>
+ Build Python consumer script using httpx/requests
+ <br>
+ Add filtering, sorting and pagination to endpoints
+
+ # FastAPI Week Project.........DAY5
+Build Book Review REST API service
+<br>
+Users login and post reviews with ratings
+<br>
+Admin can approve or remove reviews
+<br>
+Generate OpenAPI documentation
+
+# week04
+# AI Fundamentals in Python........DAY1
+Review NumPy, Pandas, Matplotlib
+<br>
+Load dataset and perform data cleaning
+<br>
+Train simple ML model using scikit-learn
+<br>
+Interpret accuracy and validation metrics
+
