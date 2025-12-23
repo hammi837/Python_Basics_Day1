@@ -43,6 +43,7 @@ def get_current_user(request: Request, db: Session = Depends(get_db)):
         detail="Could not validate credentials",
         headers={"WWW-Authenticate": "Bearer"},
     )
+    
     if not token:
         raise credentials_exception
     try:
@@ -52,6 +53,7 @@ def get_current_user(request: Request, db: Session = Depends(get_db)):
             raise credentials_exception
     except JWTError:
         raise credentials_exception
+    
     user = db.query(models.User).filter(models.User.username == username).first()
     if user is None:
         raise credentials_exception

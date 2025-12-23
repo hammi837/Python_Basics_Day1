@@ -30,6 +30,7 @@ def login(request):
             messages.error(request, "Invalid email or password.")
        
     return render(request,'login.html')
+ 
 
 @login_required
 def contacts(request):
