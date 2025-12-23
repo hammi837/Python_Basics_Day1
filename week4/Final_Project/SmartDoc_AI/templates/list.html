@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Documents</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f0f2f5;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            background: #f9f9f9;
+            margin-bottom: 10px;
+            padding: 12px 15px;
+            border-radius: 6px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        a.download {
+            text-decoration: none;
+            color: white;
+            background: #007bff;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        a.download:hover {
+            background: #0056b3;
+        }
+
+        .back {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back a {
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+
+<body>
+<div class="container">
+    <h2>📁 Your Documents</h2>
+
+    <ul>
+        {% for doc in documents %}
+            <li>
+                {{ doc.file.name|slice:"10:" }} 
+                <a class="download" href="{{ doc.file.url }}" download>Download</a>
+            </li>
+        {% empty %}
+            <li>No documents uploaded yet.</li>
+        {% endfor %}
+    </ul>
+
+    <div class="back">
+        <a href="/register/dashboard/">⬅ Back to Dashboard</a>
+    </div>
+</div>
+</body>
+</html>
