@@ -29,7 +29,7 @@ Django handles authentication, user management, and frontend UI, while FastAPI h
 ## **Installation**
 
 1. Clone the repository:
-```bash
+
 git clone https://github.com/username/SmartDoc_AI.git
 cd SmartDoc_AI
 
@@ -51,8 +51,9 @@ python manage.py runserver 8000
 
 6. Run FastAPI server:
 uvicorn main:app --reload --port 8001
+---
 
-Folder Structure:
+## **Folder Structure:**
 ```text
 SmartDoc_AI/
 │
