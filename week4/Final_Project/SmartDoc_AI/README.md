@@ -65,10 +65,16 @@ SmartDoc_AI/
 │
 ├── fastapi_ai/               # FastAPI app for AI processing
 │   ├── main.py               # FastAPI endpoints
-│   └── ai_utils.py           # Text extraction, embedding, semantic search, QA
+│   ├──ai_utils.py           # Text extraction, embedding, semantic search, QA
+│   └── media 
 │
 ├── media/                    # Uploaded documents storage
 │   └── documents/
+│
+│
+├── register/                # Django app for user authentication
+│   ├── views.py
+│   └── urls.py
 │
 ├── SmartDoc_AI/              # Django project settings
 │   ├── settings.py
